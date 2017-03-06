@@ -24,7 +24,7 @@ Excluding `makefile`, all of the preceding files are written in C.
 
 ##COMPILING AND EXECUTING THE FILES
 
-######Compiling
+####Compiling
 A makefile is included and is the simplest way to compile these files. The
 following command will automatically compile all necessary files in addition
 to automatically executing the server:
@@ -48,7 +48,7 @@ After the program is terminated, entering the command:
 will remove any additional files produced by compilation.
 
 
-######Executing
+####Executing
 Executing the server and client simultaneously will require at least 2 open
 terminals. After compiling the files, the server and client can be executed
 with the following commands, respectively:
@@ -73,7 +73,7 @@ time during execution. The server will be notified when any client disconnects,
 but other clients WILL NOT be notified.
 
 
-######Usage
+####Usage
 When the server is running, any input to the server will produce no results and
 will not be logged in the server log.
 
