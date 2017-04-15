@@ -1,11 +1,13 @@
 # Network Chat Application
 NOTE
+
 These programs were designed to run on a Linux-/Unix-based system.
 Execution and output of this program may not work as intended if it is run
 outside of a Linux-/Unix-based system.
 
 
 PROGRAM DESCRIPTION
+
 This set of programs comprises an application that establishes a TCP server,
 allowing multiple clients to connect to the server. The clients that connect
 can send messages to the server, which the server will transmit to all other
@@ -13,6 +15,7 @@ clients.
 
 
 PROGRAMS/CONTENTS
+
 This set of files for a client-server application includes the following:
 
 	resources.h	
@@ -22,9 +25,11 @@ This set of files for a client-server application includes the following:
 
 Excluding `makefile`, all of the preceding files are written in C.
 
+
 COMPILING AND EXECUTING THE FILES
 
 Compiling
+
 A makefile is included and is the simplest way to compile these files. The
 following command will automatically compile all necessary files in addition
 to automatically executing the server:
@@ -49,6 +54,7 @@ will remove any additional files produced by compilation.
 
 
 Executing
+
 Executing the server and client simultaneously will require at least 2 open
 terminals. After compiling the files, the server and client can be executed
 with the following commands, respectively:
@@ -74,6 +80,7 @@ but other clients WILL NOT be notified.
 
 
 Usage
+
 When the server is running, any input to the server will produce no results and
 will not be logged in the server log.
 
